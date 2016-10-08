@@ -22,3 +22,42 @@
   text-align: center;
   margin-bottom: 45px;
 }
+
+.features__item {
+  color: #424242;
+  line-height: 26px;
+  text-align: center;
+  margin-bottom: 48px;
+}
+
+.feature__inner {
+  border: 1px solid #fbd2d3;
+  height: 298px;
+  padding: 60px 13px;
+}
+
+.features__item:last-child {
+  margin-right: 0;
+}
+
+.features__item:first-child {
+  margin-left: 0 ;
+}
+
+.feature__title {
+  font-size: 26px;
+  margin-bottom: 20px;
+}
+
+.feature__text {
+  font-size: 16px;
+}
+
+.features__slogan {
+  color: #424242;
+  font-size: 22px;
+  font-weight: 600;
+  font-style: italic;
+  line-height: 26px;
+  text-align: center;
+}
