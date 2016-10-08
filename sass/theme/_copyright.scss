@@ -1,0 +1,31 @@
+.copyright {
+  line-height: 63px;
+  background-color: #2b2b35;
+  background-image: linear-gradient(to top, #34495e 0%, #496179 100%);
+}
+
+.copy {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 63px;
+  vertical-align: middle;
+  padding: 0 25px;
+}
+
+.footer-menu {
+  padding: 0 50px 15px ;
+  .navbar-nav {
+    float: right;
+    .nav-link {
+      font-size: 12px;
+      color: white;
+      line-height: 63px;
+      vertical-align: middle;
+      display: block;
+      padding-top: 0;
+      padding-bottom: 0;
+    }
+  }
+}

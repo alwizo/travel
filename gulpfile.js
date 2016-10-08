@@ -33,6 +33,7 @@ var ignore = require('gulp-ignore');
 var rimraf = require('gulp-rimraf');
 var clone = require('gulp-clone');
 var merge = require('gulp-merge');
+var autoprefixer = require('gulp-autoprefixer');
 var sourcemaps = require('gulp-sourcemaps');
 var browserSync = require('browser-sync').create();
 var reload = browserSync.reload;

@@ -32,8 +32,8 @@
 
 .feature__inner {
   border: 1px solid #fbd2d3;
-  height: 298px;
-  padding: 60px 13px;
+  min-height: 300px;
+  padding: 60px 13px 35px;
 }
 
 .features__item:last-child {
@@ -61,3 +61,4 @@
   line-height: 26px;
   text-align: center;
 }
+
