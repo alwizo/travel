@@ -53,6 +53,7 @@ get_header(); ?>
                     Швейцария, как она есть. Мы знаем эту страну как самих себя...
                 </div>
                 <div class="col-md-4 features__item feature">
+                    <i class="sprite sprite-euro"></i>
                     <div class="feature__inner">
                         <div class="feature__title">Лучшие Цены</div>
                         <div class="feature__text">
@@ -62,6 +63,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="col-md-4 features__item feature">
+                    <i class="sprite sprite-heart"></i>
                     <div class="feature__inner">
                         <div class="feature__title">Точность и Надежность</div>
                         <div class="feature__text">
@@ -72,6 +74,7 @@ get_header(); ?>
                     </div>
                 </div>
                 <div class="col-md-4 features__item feature">
+                    <i class="sprite sprite-star"></i>
                     <div class="feature__inner">
                         <div class="feature__title">Индивидуальный Подход</div>
                         <div class="feature__text">

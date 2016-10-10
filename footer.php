@@ -12,7 +12,6 @@
 
 
             <footer id="colophon" class="footer" role="contentinfo">
-                    
                     <div class="footer-top">
                         <div class="container">
                             <div class="row">
@@ -44,10 +43,10 @@
                                         Отправить заявку
                                     </div>
                                     <div class="order__form">
-                                        <form action="action">
-                                            <input type="text" class="form-control" id="" placeholder="Страна отдыха...">
-                                            <input type="text" class="form-control" id="" placeholder="Ваш e-mail...">
-                                            <button type="submit" class="btn btn-danger btn-block">Перейти</button>
+                                        <form method="get">
+                                            <input type="text" class="form-control" id="country" placeholder="Страна отдыха...">
+                                            <input type="text" class="form-control" id="email" placeholder="Ваш e-mail...">
+                                            <button type="button" class="btn btn-danger btn-block" data-toggle="modal" data-target="#myModal" id="go">Перейти</button>
                                         </form>
                                     </div>
                                 </div>

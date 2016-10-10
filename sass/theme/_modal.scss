@@ -1,0 +1,70 @@
+.modal-content {
+  background-color: #34495e;
+}
+.close {
+  font-size: 3.5rem;
+  font-weight: 300;
+  line-height: 1;
+  color: #fff;
+  opacity: 1; }
+
+.modal-dialog {
+  max-width: 750px; }
+
+.modal-header {
+  background-color: #34495e;
+  border: 0; }
+
+.modal-title {
+  color: white;
+  font-family: Roboto, sans-serif;
+  font-size: 28px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+  padding: 10px; }
+
+.form-group label {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 12px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase; }
+
+.form-control {
+  font-size: 12px;
+  line-height: 22px;
+  background: #f2f2f2;
+  border: 1px solid #e6e6e6;
+  border-radius: 0;
+  color: #5a5a5a; }
+
+.form-connect {
+  width: 100%; }
+
+.form-recaptcha {
+  padding: 0; }
+
+.form-recaptcha .form-group {
+  margin-top: -30px;
+  margin-left: 13px; }
+
+.wpcf7-recaptcha {
+  background: #fff;
+  border: none; }
+
+.wpcf7-submit {
+  background-color: #81ae51;
+  border: none;
+  color: #fff;
+  padding: 15px;
+  font-size: 16px;
+  line-height: 22px;
+  text-transform: uppercase;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  margin-top: 20px;
+}

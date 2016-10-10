@@ -1,0 +1,42 @@
+.primary-menu {
+  float: right;
+  font-family: 'Roboto', sans-serif;
+  color: #ffffff;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 26px;
+  text-transform: uppercase;
+}
+
+#main-menu ul {
+  background-color: #34495e;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 14px;
+  font-weight: 300;
+  line-height: 39px;
+  text-transform: none;
+}
+
+#main-menu li li {
+  background-color: #34495e;
+}
+
+#main-menu li li a {
+  padding: 15px 20px;
+  margin: 0;
+}
+
+#main-menu li li a:hover,
+#main-menu li li a:focus {
+  background-color: #d9534f;
+  color: #ffffff!important;
+}
+
+#main-menu .nav-link {
+  color: #fff;
+}
+#main-menu .nav-link:hover,
+#main-menu .nav-link:focus {
+  color: #d9534f;
+}
