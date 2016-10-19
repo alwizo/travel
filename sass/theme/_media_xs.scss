@@ -1,0 +1,54 @@
+/* Extra small. max 544px */
+@media screen and (max-width: 33.9em) {
+  .navbar-brand {
+    width: 217px;
+    display: block;
+    margin: 0 auto;
+    float: none;
+  }
+
+  .logo-wrapper {
+    margin-bottom: 15px;
+  }
+
+  .slider__img {
+    width: 320px;
+    height: 200px;
+  }
+
+
+  #main-menu .dropdown-menu {
+    margin-top: 0;
+  }
+
+  #main-menu ul {
+    width: 300px;
+  }
+
+  #main-menu li {
+    border-right: none;
+  }
+
+  .features__title{
+    font-size: 20px;
+    line-height: 22px;
+  }
+
+  .slogan__logo {
+    width: 70%;
+  }
+
+  .copy {
+    font-size: 8px;
+    padding: 0 9%;
+  }
+
+  .footer-menu .navbar-nav {
+    margin-bottom: 20px;
+  }
+
+  .footer-menu .navbar-nav .nav-link {
+    font-size: 8px;
+    line-height: 16px;
+  }
+}
