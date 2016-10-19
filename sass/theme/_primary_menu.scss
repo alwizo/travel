@@ -6,9 +6,20 @@
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
+  margin-top: 18px;
+}
+.dropdown:hover .dropdown-menu,
+.dropdown:focus .dropdown-menu {
+  display: block;
+  margin-top: 0; // remove the gap so it doesn't close
+}
+.primary-menu .dropdown-toggle:after {
+  margin-top: -7px;
 }
 
 #main-menu ul {
+  min-width: 100%;
+  min-height: 100%;
   background-color: #34495e;
   color: white;
   font-family: 'Roboto', sans-serif;
@@ -18,12 +29,58 @@
   text-transform: none;
 }
 
+#main-menu > li {
+  border-right: 1px solid #495c6e;
+  padding-left: 15px;
+}
+
+#main-menu > li a {
+  padding: 0;
+}
+
+#main-menu > li:last-child a {
+  padding-right: 0;
+}
+
+#main-menu > li:last-child {
+  border-right: none;
+}
+
+#main-menu .dropdown-menu {
+  padding: 0;
+  margin-top: 0px;
+}
+
+#main-menu > li {
+  padding-right: 15px;
+}
+
+#main-menu > li:last-child {
+  padding-right: 0;
+}
+
+#main-menu > .menu-item:last-child:before {
+  display: none;
+}
+
+/*#main-menu > .menu-item:before {
+  content: "";
+  height: 50%;
+  width: 1px;
+  background-color: #495c6e;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  position: absolute;
+  right: 15px;
+}*/
+
 #main-menu li li {
   background-color: #34495e;
+  min-width: 250px;
 }
 
 #main-menu li li a {
-  padding: 15px 20px;
+  padding: 5px 30px;
   margin: 0;
 }
 

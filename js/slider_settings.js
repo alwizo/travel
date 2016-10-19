@@ -10,7 +10,7 @@
             animateIn: 'fadeIn',
             nav: false,
             dots: true,
-            autoplayHoverPause:true,
+            autoplayHoverPause:false,
             margin:0,
             autoHeight:true
         });

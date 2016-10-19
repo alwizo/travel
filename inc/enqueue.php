@@ -27,7 +27,7 @@ add_action("wp_enqueue_scripts","alwizo_slider");
 function alwizo_slider(){
     if ( is_front_page() ) {    
     $data = array(
-        "timeout"=> intval( get_theme_mod( 'alwizo_theme_slider_time_setting', 5000 )),
+        "timeout"=> intval( get_theme_mod( 'alwizo_theme_slider_time_setting', 10000 )),
         "items"=> intval( get_theme_mod( 'alwizo_theme_slider_count_setting', 1 ))
     	);
 

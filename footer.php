@@ -15,7 +15,7 @@
                     <div class="footer-top">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4 footer-top__item slogan">
+                                <div class="col-lg-4 footer-top__item slogan">
                                     <div class="slogan__logo"><?php if (!has_custom_logo()) { ?>
 		                                <a class="navbar-brand" href="<?php echo esc_url( home_url( '/' ) ); ?>" title="<?php echo esc_attr( get_bloginfo( 'name', 'display' ) ); ?>" rel="home">
 		                                	<?php bloginfo( 'name' ); ?>
@@ -27,7 +27,7 @@
                                                 положительными эмоциями надолго.
                                         </div>
                                 </div>
-                                <div class="col-md-3 footer-top__item contacts">
+                                <div class="col-lg-3 col-md-6 footer-top__item contacts">
                                     <div class="contacts__title">Наши контакты</div>
                                     <div class="contacts__phone">
                                         <i class="sprite sprite-phone"></i>
@@ -38,7 +38,7 @@
                                         info@vmp-travel.com
                                     </div>
                                 </div>
-                                <div class="col-md-3 offset-md-1 footer-top__item order">
+                                <div class="col-lg-3 col-md-6 offset-lg-1 footer-top__item order">
                                     <div class="order__title">
                                         Отправить заявку
                                     </div>
@@ -56,10 +56,10 @@
                     <div class="copyright">
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-6 copy">
+                                <div class="col-lg-6 copy">
                                     © 2016 VMP Travel - Swiss Tour Operator and DMC. All Rights Reserved.
                                 </div>
-                                <div class="col-md-6 footer-menu">
+                                <div class="col-lg-6 footer-menu">
                                   <?php wp_nav_menu(
                                     array(
                                         'theme_location' => 'footer',

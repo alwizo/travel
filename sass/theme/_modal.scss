@@ -1,6 +1,11 @@
 .modal-content {
   background-color: #34495e;
 }
+
+.modal-body {
+  padding: 35px;
+}
+
 .close {
   font-size: 3.5rem;
   font-weight: 300;
@@ -9,7 +14,7 @@
   opacity: 1; }
 
 .modal-dialog {
-  max-width: 750px; }
+  max-width: 550px; }
 
 .modal-header {
   background-color: #34495e;
@@ -22,7 +27,9 @@
   font-weight: 400;
   line-height: 26px;
   text-transform: uppercase;
-  padding: 10px; }
+  padding: 10px;
+  text-align: center;
+}
 
 .form-group label {
   color: white;
@@ -40,6 +47,19 @@
   border-radius: 0;
   color: #5a5a5a; }
 
+.btn-send {
+  border-radius: 0;
+  min-width: 100%;
+  margin-top: 30px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 22px;
+  text-transform: uppercase;
+}
+
+/*
 .form-connect {
   width: 100%; }
 
@@ -67,4 +87,4 @@
   margin-right: auto;
   width: 80%;
   margin-top: 20px;
-}
+}*/

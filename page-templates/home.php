@@ -7,13 +7,18 @@
  * @package alwizo
  */
 
-get_header(); ?> 
+get_header(); ?>
+
+
+
     <div class="owl-carousel">
 
         <?php dynamic_sidebar( 'hero' ); ?>
 
-    </div><!-- .owl-carousel -->      
+    </div><!-- .owl-carousel -->
+
     <section class="line">
+        <i class="sprite sprite-triangle"></i>
         <div class="container">
             <div class="row">
                 <div class="col-md-12">
@@ -46,13 +51,13 @@ get_header(); ?>
             </main><!-- #main -->
             
             <section class="row features">
-                <div class="col-md-12 features__title">
+                <div class="col-lg-12 features__title">
                     Путешествовать с VMP Travel<br> не только приятно, но и выгодно
                 </div>
-                <div class="col-md-12 features__subtitle">
+                <div class="col-lg-12 features__subtitle">
                     Швейцария, как она есть. Мы знаем эту страну как самих себя...
                 </div>
-                <div class="col-md-4 features__item feature">
+                <div class="col-lg-4 features__item feature">
                     <i class="sprite sprite-euro"></i>
                     <div class="feature__inner">
                         <div class="feature__title">Лучшие Цены</div>
@@ -62,7 +67,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 features__item feature">
+                <div class="col-lg-4 features__item feature">
                     <i class="sprite sprite-heart"></i>
                     <div class="feature__inner">
                         <div class="feature__title">Точность и Надежность</div>
@@ -73,7 +78,7 @@ get_header(); ?>
                         </div>
                     </div>
                 </div>
-                <div class="col-md-4 features__item feature">
+                <div class="col-lg-4 features__item feature">
                     <i class="sprite sprite-star"></i>
                     <div class="feature__inner">
                         <div class="feature__title">Индивидуальный Подход</div>

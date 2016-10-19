@@ -1,5 +1,5 @@
 .owl-wrapper-outer {
-    height: 100% !important;    
+    height: 100% !important;
 }
 
 .owl-wrapper {
@@ -12,6 +12,9 @@
 
 .b-Amarelo {
     height: 100%;
+}
+.slider__img {
+  height:calc(100vh - 65px);
 }
 
 .owl-item h1 {
